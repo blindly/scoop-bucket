@@ -13,6 +13,6 @@
     "regex": "v([\\d.]+)"
   },
       "autoupdate": {
-        "url": "https://github.com/MrLesk/Backlog.md/releases/download/v$version/backlog-bun-windows-x64-baseline.exe"
-      }
+        "url": "https://github.com/MrLesk/Backlog.md/releases/download/$version/backlog-bun-windows-x64.exe"
+    }
 }
