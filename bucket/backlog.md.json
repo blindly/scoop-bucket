@@ -8,11 +8,12 @@
     "bin": [
         ["backlog-bun-windows-x64.exe", "backlog"]
     ],
-    "checkver": {
+      "checkver": {
         "github": "MrLesk/Backlog.md",
-        "regex": "([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://github.com/MrLesk/Backlog.md/releases/download/$version/backlog-bun-windows-x64.exe"
-    }
+        "regex": "v([\\d.]+)" // capture the digits only, skip the leading 'v'
+      },
+      "autoupdate": {
+        "url": "https://github.com/MrLesk/Backlog.md/releases/download/v$version/backlog-bun-windows-x64.exe"
+      }
+    
 }
