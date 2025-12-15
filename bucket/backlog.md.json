@@ -10,7 +10,7 @@
     ],
       "checkver": {
         "github": "MrLesk/Backlog.md",
-        "regex": "v([\\d.]+)" // capture the digits only, skip the leading 'v'
+        "regex": "v([\\d.]+)"
       },
       "autoupdate": {
         "url": "https://github.com/MrLesk/Backlog.md/releases/download/v$version/backlog-bun-windows-x64.exe"
